@@ -1,0 +1,11 @@
+
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.json:json:20170516'
+	compile 'com.mashape.unirest:unirest-java:1.4.9'
+}
