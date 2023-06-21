@@ -1,3 +1,4 @@
+###BTW see credits.txt
 ![image](https://github.com/EaglerReborn/EaglerReborn/assets/134523836/e59bba1d-266b-4313-aa8f-18a7d39887b7)
 ---
 ### Eaglercraft client with Java support.
