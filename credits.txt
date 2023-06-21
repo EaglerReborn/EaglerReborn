@@ -19,13 +19,11 @@
   - Added screen recording
   - Added seamless fullscreen
   - Created the replit
-  
-   OtterCodes101:
-   -Made the Org
-   -added new stuff
-   -and more
+
+
    AR-DEV-1:
-   -Helped Otter
+
+
    -Did some programming
    -and more
    
