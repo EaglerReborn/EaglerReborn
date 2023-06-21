@@ -1,0 +1,15 @@
+http://:8080, http://:3000 {
+  @eag {
+    header Connection *Upgrade*
+    header Upgrade websocket
+    not path /ws
+    path_regexp fard ^/(.*)$
+  }
+  handle_path /cors/* {
+    reverse_proxy 127.0.0.1:8083
+  }
+  reverse_proxy @eag 127.0.0.1:8081 {
+    header_up Host {re.fard.1}.viaeagx
+  }
+  reverse_proxy 127.0.0.1:8082
+}
